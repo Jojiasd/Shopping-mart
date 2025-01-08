@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shopping Website</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 0;
+
+      padding: 0;
+
+      background-color: #f4f4f4;
+
+    }
+
+    header {
+
+      background-color: #333;
+
+      color: #fff;
+
+      padding: 20px;
+
+      text-align: center;
+
+    }
+
+    nav {
+
+      display: flex;
+
+      justify-content: center;
+
+      margin-top: 10px;
+
+    }
+
+    nav a {
+
+      color: #fff;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      padding: 10px;
+
+    }
+
+    nav a:hover {
+
+      background-color: #575757;
+
+      border-radius: 5px;
+
+    }
+
+    .product-container {
+
+      display: grid;
+
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+
+      gap: 20px;
+
+      padding: 20px;
+
+    }
+
+    .product {
+
+      background-color: #fff;
+
+      border: 1px solid #ddd;
+
+      border-radius: 10px;
+
+      padding: 20px;
+
+      text-align: center;
+
+    }
+
+    .product img {
+
+      max-width: 100%;
+
+      border-radius: 5px;
+
+    }
+
+    .product h3 {
+
+      margin: 15px 0;
+
+    }
+
+    .product .price {
+
+      font-size: 20px;
+
+      color: #e74c3c;
+
+    }
+
+    .product button {
+
+      background-color: #333;
+
+      color: #fff;
+
+      border: none;
+
+      padding: 10px;
+
+      width: 100%;
+
+      cursor: pointer;
+
+      border-radius: 5px;
+
+    }
+
+    .product button:hover {
+
+      background-color: #575757;
+
+    }
+
+    footer {
+
+      background-color: #333;
+
+      color: #fff;
+
+      text-align: center;
+
+      padding: 20px;
+
+      position: fixed;
+
+      bottom: 0;
+
+      width: 100%;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Welcome to Our Shopping Store</h1>
+
+    <nav>
+
+      <a href="#">Home</a>
+
+      <a href="#">Products</a>
+
+      <a href="#">Contact Us</a>
+
+      <a href="#">Cart</a>
+
+    </nav>
+
+  </header>
+
+  <div class="product-container">
+
+    <div class="product">
+
+      <img src="https://www.bing.com/images/search?view=detailV2&ccid=mSBBzf0i&id=3D6103898554BB69BB994A52AA0D114ED4C34C84&thid=OIP.mSBBzf0iXOX7j8muIm5GlwHaGG&mediaurl=https%3a%2f%2fimages.idgesg.net%2fimages%2farticle%2f2019%2f11%2falt-primary-100819439-orig.jpg&exph=2928&expw=3550&q=microsoft+laptop&simid=608016883034914514&FORM=IRPRST&ck=26C25991E772FEA2B9AAB9A956EEA4A7&selectedIndex=0&itb=0&PC=EMMX01" alt="Product 1">
+
+      <h3>Product 1</h3>
+
+      <p>Description of Product 1</p>
+
+      <div class="price">$25.00</div>
+
+      <button>Add to Cart</button>
+
+    </div>
+
+    <div class="product">
+
+      <img src="https://www.bing.com/images/search?view=detailV2&ccid=%2bTFGE4Ag&id=03D8C22B6D63BD6979F77A796A6E39BD53BC574B&thid=OIP.-TFGE4AgH39gn77h9JoLhAHaHa&mediaurl=https%3a%2f%2fimg.cryptopolitan.com%2fwp-content%2fuploads%2f2023%2f12%2fDALL%c2%b7E-2023-12-30-09.48.56-A-modern-sleek-Microsoft-laptop-on-a-white-background.-The-laptop-is-open-displaying-a-vibrant-high-resolution-screen-with-a-generic-operating-syst.jpg&exph=1024&expw=1024&q=microsoft+laptop&simid=607999144820816371&FORM=IRPRST&ck=00C0802A6EE5D8D466EB08AA09AE6A8D&selectedIndex=8&itb=0&PC=EMMX01" alt="Product 2">
+
+      <h3>Product 2</h3>
+
+      <p>Description of Product 2</p>
+
+      <div class="price">$30.00</div>
+
+      <button>Add to Cart</button>
+
+    </div>
+
+    <div class="product">
+
+        <img sec="https://www.bing.com/images/search?view=detailV2&ccid=qPvfsxXc&id=33E2921028B0B78A1105680F5E960D50D5A0C4FD&thid=OIP.qPvfsxXcixw8IWmizogHOAHaEK&mediaurl=https%3a%2f%2fimages.idgesg.net%2fimages%2farticle%2f2020%2f09%2ffeature_06_b-100860371-orig.jpg&exph=3375&expw=6000&q=microsoft+laptop&simid=607998328773755369&FORM=IRPRST&ck=25B47CDC3C56442DB5821BDBBDE3C2A8&selectedIndex=3&itb=0&PC=EMMX01"alt="Product 3">
+
+      <h3>Product 3</h3>
+
+      <p>Description of Product 3</p>
+
+      <div class="price">$45.00</div>
+
+      <button>Add to Cart</button>
+
+    </div>
+
+    <div class="product">
+
+      <img src="https://www.bing.com/images/search?view=detailV2&ccid=Nb7ovZ6o&id=9579EFFE005EA74FF7CA027447D6EB77DA2AB41D&thid=OIP.Nb7ovZ6o8bs5nekRo2pU3gHaFo&mediaurl=https%3a%2f%2fwww.pcworld.com%2fwp-content%2fuploads%2f2022%2f07%2fprimary-1.jpg%3fquality%3d50%26strip%3dall&exph=2181&expw=2867&q=microsoft+laptop&simid=608015968210730565&FORM=IRPRST&ck=D9B419A7153E11F3236E630D07A8C7F3&selectedIndex=4&itb=0&PC=EMMX01" alt="Product 4">
+
+      <h3>Product 4</h3>
+
+      <p>Description of Product 4</p>
+
+      <div class="price">$20.00</div>
+
+      <button>Add to Cart</button>
+
+    </div>
+
+  </div>
+
+  <footer>
+
+    <p>&copy; 2025 Shopping Store. All rights reserved.</p>
+
+  </footer>
+
+  <script>
+
+    const buttons = document.querySelectorAll('.product button');
+
+    buttons.forEach(button => {
+
+      button.addEventListener('click', () => {
+
+        alert('Item added to cart!');
+
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
